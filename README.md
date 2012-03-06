@@ -4,10 +4,13 @@ releases still live on the main RHQ [git at fedorahosted][2] (see [here for core
 Basically fork the project, start translating and then send pull requests. We will then take the updated translation 
 files and put them back into the main RHQ repo.
 
+If you want to add a new language, copy the default file (e.g. Messages.properties) to Messages_xx.properties and then
+work on that new file (xx is the language code of the target language).
+
 Also small contributions matter. You can make a change!
 
-On some of the more technical aspects (like file format and encoding) see this [wiki article][1],
-which gives hints about IDE setup etc.
+*NOTE:* Please read the following [wiki article][1] for some of the more technical aspects 
+like file format, encoding and hints about IDE setup etc.
 
 
 
