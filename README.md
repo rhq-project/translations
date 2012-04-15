@@ -5,7 +5,8 @@ Basically fork the project, start translating and then send pull requests. We wi
 files and put them back into the main RHQ repo.
 
 If you want to add a new language, copy the default file (e.g. Messages.properties) to Messages_xx.properties and then
-work on that new file (xx is the language code of the target language).
+work on that new file (xx is the language code of the target language). Best is to probably comment out all lines
+with a hash mark first and then when you translate a line, remove the hash to comement it back in.
 
 Also small contributions matter. You can make a change!
 
